@@ -1,0 +1,19 @@
+@charset "UFT-8";
+body {
+    background-color: rgb(87, 179, 202);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-image: linear-gradient(90deg,red 4%,blue 42%,rgb(0, 128, 0) 110%);
+    /* background-image: radial-gradient(circle, red, blue, green);  */
+    
+}
+h1 {
+    background-color: rgb(181, 219, 224);
+    color: blue;
+}
+h2 {
+    color: darkred;
+}
+p {
+    text-align: justify;
+}

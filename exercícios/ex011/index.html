@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 725px )" srcset="Imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1025px)" srcset="Imagens/imagem-m.png" type="image/png">
+        <img src="Imagens/imagem-g.png" alt="imagem-g">
+    </picture>
+    <audio preload="metadata" controls autoplay loop>
+        <!-- control (mostra os controles do audio) -->
+        <!-- autoplay (da play automaticamente)-->
+        <!-- loop (deixa em loop) -->
+        <!--Primeira "tentativa"  --> 
+        <source src="midia/grrr.mp3.mp3" type="audio/mp3">
+        <!--Se caso a primeira falhar  --> 
+        <source src="midia/spidemantheme.mp3.mp3" type="audio/mp3">
+        <!--Se caso a segunda falhar  --> 
+        <p>Seu navegador não suporta audio <a href="midia/sequisersim.mp3.mp3" download="Se quiser sim mano by Ramon Dino" type="audio/mp3">download</a></p>
+    </audio>
+    <!--- Para vídeo--> <source media="(min-width: )" srcset="" type="image/">
+    <!--- Para audio--><source src="" type="">
+    <!--- Normal--><source>
+</body>
+</html>
